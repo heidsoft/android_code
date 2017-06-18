@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_01"
+        android:title="@string/menu_01" >
+        <menu>
+            <item
+                android:id="@+id/create_new"
+                android:title="新建文件"/>
+            <item
+                android:id="@+id/open"
+                android:title="打开文件"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_02"
+        android:title="@string/menu_02" >
+        <menu>
+            <group android:id="@+id/group1" >
+                <item
+                    android:id="@+id/load"
+                    android:title="加载文件">
+                </item>
+            </group>
+            <group android:id="@+id/group2" >
+                <item
+                    android:id="@+id/save"
+                    android:title="保存文件">
+                </item>
+            </group>
+        </menu>
+    </item>
+</menu>

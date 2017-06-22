@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="bn1">菜单一</string>
+    <string name="bn2">菜单二</string>
+    <string name="bn3">菜单三</string>
+    <string name="bn4">菜单四</string>
+    <string name="bn5">菜单五</string>
+</resources>

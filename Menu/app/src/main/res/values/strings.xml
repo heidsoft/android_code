@@ -5,4 +5,10 @@
     <string name="bn3">菜单三</string>
     <string name="bn4">菜单四</string>
     <string name="bn5">菜单五</string>
+
+    <string name="rowbutton">独自一行的按钮</string>
+    <string name="yiban_button">普通按钮</string>
+    <string name="shousuo_button">收缩按钮</string>
+    <string name="lashen_button">拉伸按钮</string>
+
 </resources>

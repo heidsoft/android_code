@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <!--
+     android:collapseColumns 设置需要被隐藏的列的列序号,多个列序号之间用逗号隔开
+     android:shrinkColumns 设置允许被收缩的列的序号,多个列序号之间用逗号隔开
+     android:stretchColumns 设置允许被拉伸的列的序号,多个列序号之间逗号隔开
+    -->
+
+    <!--
+     定义第一个表格布局，指定第2列允许收缩，第3列允许拉伸
+    -->
+    <TableLayout
+       android:id="@+id/TableLayout01"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:shrinkColumns="1"
+       android:stretchColumns="2">
+
+        <Button android:id="@+id/ok1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rowbutton"/>
+
+        <!--为该表格行添加三个按钮-->
+        <TableRow>
+            <Button android:id="@+id/ok2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yiban_button"/>
+            <Button android:id="@+id/ok3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shousuo_button"/>
+            <Button android:id="@+id/ok4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lashen_button"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <!--
+       定义第2个表格布局，指定第2列隐藏
+    -->
+    <TableLayout
+        android:id="@+id/TableLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:collapseColumns="1">
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/TableLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2">
+    </TableLayout>
+
+
+</LinearLayout>

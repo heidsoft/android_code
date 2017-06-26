@@ -1,0 +1,14 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Menu/app/src/main/AndroidManifest.xml
+#	new file:   Menu/app/src/main/java/com/heidsoft/menu/ActivityTable.java
+#	modified:   Menu/app/src/main/java/com/heidsoft/menu/MainActivity.java
+#	renamed:    Menu/app/src/main/res/layout/table_layout.xml -> Menu/app/src/main/res/layout/activity_table.xml
+#	modified:   Menu/app/src/main/res/values/strings.xml
+#
+Update 测试intent 意图 显示跳转活动

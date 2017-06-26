@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityTable"></activity>
+        <activity android:name=".TableViewActivity"></activity>
     </application>
 
 </manifest>
